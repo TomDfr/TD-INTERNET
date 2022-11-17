@@ -1,0 +1,98 @@
+ul {
+  list-style-type: none;
+  margin: -8px -8px 73px -8px;
+  padding: 5px 400px 5px;
+  height: 60px;
+  overflow: hidden;
+  background: linear-gradient(to right, #2C4089, #54A6D1);
+}
+
+
+ul img{
+  padding-top: 0.7%;
+  padding-left: 2%;
+  height: 72%;
+}
+
+
+li {
+  float: right;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 5px -7px;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: Comic Sans MS;
+}
+
+
+.title{
+  padding-bottom: 15px;
+  font-family: Calibri Light;
+  color: #666666;
+  font-size: 19px;
+}
+
+
+.barre-bleu {
+  padding-top: 10px;
+  height: 5px;
+}
+
+
+.who-we-are-paragraphe{
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: Calibri Light;
+
+}
+
+
+.button {
+  border: none;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  padding: 16px 32px;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+
+.read-more-button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #B7DDF2;
+}
+
+
+.our-partners-paragraphe{
+  padding-bottom: 40px;
+  font-size: 18px;
+  font-family: Calibri Light;
+}
+
+
+footer{
+  list-style-type: none;
+  margin-right: -8px;
+  margin-left: -8px;
+  padding: 8px 300px 30px;
+  height: 100%;
+  overflow: hidden;
+  background: #439FD1;
+  color: white;
+  display: block;
+  font-size: 12px;
+}
