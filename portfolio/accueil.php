@@ -1,0 +1,32 @@
+<?php
+echo '<!DOCTYPE html>';
+echo '<html>';
+echo '<head>';
+echo '<meta charset="UTF-8">';
+echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+echo '<link rel="stylesheet" href="all.css">';
+echo '<title>Mon Porte folio</title>';
+echo '</head>';
+echo '';
+echo '';
+echo '<body>';
+echo '<div class="nav"><center>';
+echo '<ul nav-link>';
+echo '<li class="active"><a href="accueil.php">Accueil</a></li>';
+echo '<li><a href="a-propos.php">À propos</a></li>';
+echo '<li><a href="competences.php">Compétences</a></li>';
+echo '<li><a href="experience.php">Expérience</a></li>';
+echo '<li><a href="formation.php">Formation</a></li>';
+echo '<li><a href="contact.php">Contact</a></li>';
+echo '</ul>';
+echo '</div></center>';
+echo '';
+echo '<div class="paper">';
+echo '<h1>Bienvenue sur mon Portfolio</h1>';
+echo '<p>Je m`apelle Tom Dufour<p>';
+echo '<p>Étudiant en BTS Sio Caensup Sainte-Ursule </p>';
+echo '</body>';
+echo '</html>';
+echo '';
+echo '';
+?>

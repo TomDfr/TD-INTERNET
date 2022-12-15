@@ -1,0 +1,38 @@
+<?php
+echo '<!DOCTYPE html>';
+echo '<html>';
+echo '<head>';
+echo '<meta charset="UTF-8">';
+echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+echo '<link rel="stylesheet" href="all.css">';
+echo '<title>Formation</title>';
+echo '</head>';
+echo '';
+echo '';
+echo '<body>';
+echo '<div class="nav"><center>';
+echo '<ul nav-link>';
+echo '<li><a href="accueil.php">Accueil</a></li>';
+echo '<li><a href="a-propos.php">À propos</a></li>';
+echo '<li><a href="competences.php">Compétences</a></li>';
+echo '<li><a href="experience.php">Expérience</a></li>';
+echo '<li class="active"><a href="formation.php">Formation</a></li>';
+echo '<li><a href="contact.php">Contact</a></li>';
+echo '</ul>';
+echo '</div></center>';
+echo '';
+echo '<div class="container"><center>';
+echo '<div class="paper">';
+echo '<h1>Formation</h1>';
+echo '<div class="nav-competences-p">';
+echo '<p>2021-2022 : 3ème année de formation en baccalauréat professionnel S.N.(Systèmes Numériques) au lycée professionnel Charles Tellier de Condé-sur-Noireau.</p>';
+echo '<p>ㅤ</p>';
+echo '<p>2020-2021 : 2ème année de formation en baccalauréat professionnel S.N.(Systèmes Numériques) au lycée professionnel Charles Tellier de Condé-sur-Noireau.</p>';
+echo '<p>ㅤ</p>';
+echo '<p>2019-2020 : 1ère année de formation en baccalauréat professionnel S.N.(Systèmes Numériques) au lycée professionnel Jean Jooris de Dives-sur-mer.</p>';
+echo '<p>ㅤ</p>';
+echo '</body>';
+echo '</html>';
+echo '';
+echo '';
+?>
