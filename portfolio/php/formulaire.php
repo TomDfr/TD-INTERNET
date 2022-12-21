@@ -1,7 +1,12 @@
 <?php
-include_once '../composer/vendor/autoload.php';
+$secret_data = yaml_parse_file('/home/user/secret.yaml');
+include_once 'vendor/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
- 
+$nom = $_POST["nom"]??"Anonyme";
+$email = $_POST["email"];
+$message = $_POST["message"];
+$objet = $_POST["objet"];
+
 function sendMail(string $to, string $from, string $from_name, string $subject, string $body) {
     $mail = new PHPMailer(true);  // Crée un nouvel objet PHPMailer
     $mail->IsSMTP(); // active <span class="search_hit">SMTP</span>
@@ -21,7 +26,7 @@ function sendMail(string $to, string $from, string $from_name, string $subject, 
  
     $mail->SMTPAuth = true;  // Authentification <span class="search_hit">SMTP</span> active
     $mail->Username = "tom.dufour@sts-sio-caen.info";
-    $mail->Password = 'lebatteur';
+    $mail->Password = $secret_data["mdp"];
  
     $mail->isHTML(true);
     $mail->SetFrom($from, $from_name);
@@ -31,8 +36,8 @@ function sendMail(string $to, string $from, string $from_name, string $subject, 
     $mail->Send();
 }
 try{
-    sendMail($to, 'me@gmail.com', 'myName', 'Test', '<h1>Test</h1><p>Message</p>');
-    echo 'Message envoyé';
+    sendMail("tom.dufour@sts-sio-caen.info", $email, $nom, $objet, $message );
+    echo 'Votre message a bien etait envoyer';
 }catch (\Exception $e){
-    echo 'Erreur lors de l'envoi de votre message!';
+    echo 'Erreur !';
 }
