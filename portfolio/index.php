@@ -89,9 +89,8 @@
 		<div class="contact">
 		<div class="contactez-nous">
 		<h1>Contactez-nous</h1>
-		<form action="contact.php" method="post">
 		<p>Un problème, une question ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
-		<form action="/page-traitement-donnees" method="post">
+		<form action="php/formulaire.php" method="post">
 		<div>
 		<label for="nom">Votre nom</label>
 		<input type="text" id="nom" name="nom" placeholder="Martin" required>
@@ -99,6 +98,10 @@
 		<div>
 		<label for="email">Votre e-mail</label>
 		<input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+		</div>
+		<div>
+		<label for="email">objet</label>
+		<input type="text" id="objet" name="objet" placeholder="Chomage" required>
 		</div>
 		<div>
 		<label for="message">Votre message</label>
