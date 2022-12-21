@@ -9,6 +9,7 @@ $objet = $_POST["objet"];
 
 function sendMail(string $to, string $from, string $from_name, string $subject, string $body) {
     $mail = new PHPMailer(true);  // Crée un nouvel objet PHPMailer
+	echo "ton chien";
     $mail->IsSMTP(); // active <span class="search_hit">SMTP</span>
     $mail->SMTPDebug = 0;  // debogage: 1 = Erreurs et messages, 2 = messages seulement
     $mail->SMTPSecure = 'tls'; //or ssl
