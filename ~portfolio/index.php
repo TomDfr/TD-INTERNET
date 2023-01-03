@@ -22,7 +22,7 @@
 						?>
 						<a class="navbar-brand" href=".$onglet"><img src="img/icone.png" alt="website template image"></a>
 						<li class="nav-item">
-						<a href="https://www.youtube.com/embed/1-AltLENQGg?rel=0&amp;autoplay=1&amp;allowfullscreen" class="fa fa-youtube" ></a> 
+						<a href="" class="fa fa-youtube" ></a> 
 						 
 						
 			</div>
